@@ -43,7 +43,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./build --domain sahi-blogs.surge.sh"
+      "pre-push": "npm run build surge --project ./build --domain sahi-blogs.surge.sh"
     }
   }
 }
